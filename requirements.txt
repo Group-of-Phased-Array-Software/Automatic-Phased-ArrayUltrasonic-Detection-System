@@ -1,0 +1,13 @@
+# Requirements for building the Automatic Phased-Array Ultrasonic Detection System
+
+# Qt framework
+Qt==5.12.12    # built with msvc2017_64
+QtModules=charts;core;gui;network;serialbus;serialport;widgets
+
+# Qt build integration for Visual Studio
+QtMsBuild
+
+# External servo control libraries
+LTDMC.dll
+LTDMC.lib
+PVT.dll
